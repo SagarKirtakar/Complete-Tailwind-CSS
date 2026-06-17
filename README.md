@@ -23,14 +23,15 @@ This repository contains my notes and practice examples while learning Tailwind 
 * Display Classes
 * Responsive Design
 
-## 📂 Folder Structure
+## 📂 Project Structure
 
 ```text
 Tailwind-CSS-Simplified/
 │
-├── index.html
-├── README.md
-└── Notes
+├── index.html     # Main HTML file with Tailwind examples
+├── styles.css     # Custom CSS styles (if any)
+├── notes.md       # Tailwind CSS notes and explanations
+└── README.md      # Project documentation
 ```
 
 ## 💡 Example
