@@ -30,7 +30,7 @@ Tailwind-CSS-Simplified/
 │
 ├── index.html
 ├── README.md
-└── Examples and Notes
+└── Notes
 ```
 
 ## 💡 Example
