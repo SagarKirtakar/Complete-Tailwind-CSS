@@ -4,34 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind CSS</title>
-    <link rel="stylesheet" href="styles.css">
+
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1 class="text-center font-bold text-2xl bg-red-500 px-4"> Sample Heading</h1>
+<body class="p-5">
 
-    <div class="bg-gray-200 p-4 text-red-500 text-center font-bold text-2xl mt-10">Content</div>
+    <!-- Heading -->
+    <h1 class="text-center text-3xl font-bold bg-yellow-300 text-black p-4  border-4 border-red-500 rounded-lg border-t-5">
+        Sample Heading
+    </h1>
 
-    <div class="m-10 bg-orange-500 text-center text-bold text-2xl">Margin</div>
-
-    <div class="w-full h-20 bg-green-500">Width and Height</div>
-
-    <div class="border border-5 rounded-lg p-4 m-10 text-center">Box</div>
-
-    <div class="flex justify-center gap-4 bg-pink-500">
-        <div class="bg-blue-100 box-border border-4 p-4 text-center text-2xl text-blue-500">Box1</div>
-        <div class="bg-red-500 box-border border-4 p-4 text-center text-2xl text-black-500">Box2</div>
+    <!-- Padding Example -->
+    <div class="bg-gray-200 p-4 text-red-500 text-center text-2xl font-bold mt-8">
+        Padding Example
     </div>
 
-    <div class="grid grid-cols-3 gap-4">
-        <div class="bg-red-500 p-4 m-4 border-4 text-2xl text-center">1</div>
-        <div class="bg-green-500 p-4 m-4 border-4 text-2xl text-center">2</div>
-        <div class="bg-blue-500 p-4 m-4 border-4 text-2xl text-center">3</div>
+    <!-- Margin Example -->
+    <div class="bg-orange-500 text-center text-2xl font-bold m-8 p-4">
+        Margin Example
     </div>
 
-    <button class="bg-blue-500 text-black px-4 py-2 rounded border-4">
-    Click Me
-</button>
+    <!-- Width & Height Example -->
+    <div class="w-full h-20 bg-green-500 flex items-center justify-center text-white font-bold">
+        Width & Height
+    </div>
+
+    <!-- Border Example -->
+    <div class="border-4 rounded-lg p-4 m-8 text-center">
+        Border & Border Radius
+    </div>
+
+    <!-- Flexbox Example -->
+    <div class="flex justify-center gap-4 bg-pink-200 p-4">
+        <div class="bg-blue-500 text-white p-4 border-4">
+            Box 1
+        </div>
+
+        <div class="bg-red-500 text-white p-4 border-4">
+            Box 2
+        </div>
+    </div>
+
+    <!-- Grid Example -->
+    <div class="grid grid-cols-3 gap-4 mt-8">
+        <div class="bg-red-500 p-4 text-center text-white">1</div>
+        <div class="bg-green-500 p-4 text-center text-white">2</div>
+        <div class="bg-blue-500 p-4 text-center text-white">3</div>
+    </div>
+
+    <!-- Button Example -->
+    <div class="mt-8">
+        <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">
+            Click Me
+        </button>
+    </div>
 
 </body>
 </html>
