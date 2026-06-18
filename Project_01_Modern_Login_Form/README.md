@@ -36,8 +36,8 @@ This project showcases a modern login form with a clean layout and responsive de
 
 ---
 
-📂 Project Structure
-
+## 📂 Project Structure
+```text
 Complete-Tailwind-CSS/
 │
 └── Project_01_Modern-Login-Form/
