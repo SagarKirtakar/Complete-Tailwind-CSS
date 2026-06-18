@@ -26,7 +26,7 @@ This repository contains my notes and practice examples while learning Tailwind 
 ## 📂 Project Structure
 
 ```text
-Tailwind-CSS-Simplified/
+Complete-Tailwind-CSS/
 │
 ├── index.html     # Main HTML file with Tailwind examples
 ├── styles.css     # Custom CSS styles (if any)
