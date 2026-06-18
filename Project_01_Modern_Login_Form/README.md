@@ -45,22 +45,6 @@ Modern-Login-Form-Tailwind-CSS/
 └── README.md       # Project documentation
 ```
 
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/Modern-Login-Form-Tailwind-CSS.git
-```
-
-### 2. Open the project
-
-Simply open `index.html` in your browser.
-
----
-
 ## 📸 UI Components
 
 - Login Heading
